@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap') 
+
+/* generalized styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;;
+}
+.section-heading {
+    max-width: 445px;
+    text-align: center;
+    margin: 20px auto;
+}
+p {
+    color: rgba(39, 39, 39, 60%);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+    cursor: pointer;
+    transition: all 1ms;
+}
+button:hover {
+    background: #9dd809;
+}
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header, #hot-deal {
+    background-color: rgba(229, 84, 115, 10%);
+}
+
+/* container banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner .banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* featured styles */
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+#featured {
+    padding: 100px 0;
+}
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+.section-content .flower .flower-img{
+    background-color: #eb9cad;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower .Pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .Blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .Green{
+    background: rgba(71, 125, 17, 0.15);
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 16px;
+}
+
+/* third styles */
+#third{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(39, 39, 39, 5%);
+}
+#third .third-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 30px;
+}
+#third .third-container .one{
+    text-align: center;
+}
+#third .third-container .two{
+    text-align: center;
+}
+#third .third-container .three{
+    text-align: center;
+}
+
+/* hot-deal styles */
+#hot-deal .hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+    padding: 100px 0;
+}
+#hot-deal .hot-deal-main .hot-deal-text{
+    width: 75%;
+    max-width: 445px;
+    text-align: center;
+}
+#hot-deal .hot-deal-main .hot-deal-text *{
+    margin-bottom: 24px;
+}
+#hot-deal .container .hot-deal-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+#hot-deal .hot-deal-main .hot-deal-text h2 .important{
+  color: #E55473;  
+}
+#hot-deal .hot-deal-main .hot-deal-img{
+    max-width: 318px;
+}
+
+/* Instagram styles */
+#instagram{
+    margin-top: 140px;
+}
+#instagram .instagram-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* newsletter styles */
+#newsletter{
+    margin: 128px;
+}
+#newsletter .newsletter-main{
+    background-image: url('../images/newsletter-bg.png');
+    background-repeat: no-repeat;
+    padding: 122px 0;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: 4px solid green;
+}
+
+/* footer-section styles */
+#footer-section .footer-main{
+    background-color: #272727;
+    max-width: 100%;
+    padding: 100px 0;
+}
+#footer-section .footer-main p{
+    color: rgba(255, 255, 255, 90%);
+}
+#footer-section .footer-main p small{
+    color: rgba(255, 255, 255, 40%);
+}
